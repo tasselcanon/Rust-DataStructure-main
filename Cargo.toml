@@ -1,0 +1,16 @@
+[workspace]
+
+members = ["crates/List/sequence_list",
+           "crates/List/linked_list",
+           "crates/Common/stack",
+           "crates/Common/queue",
+           "crates/List/string",
+           "crates/Tree/bitree",
+           "crates/Tree/huffman_tree", 
+           "crates/Tree/union_find", 
+           "crates/Graph/graph", 
+           "crates/Searching/block_searching",
+           "crates/Searching/seq_searching",
+           "crates/Searching/tree_searching"
+           ]
+resolver = "3"

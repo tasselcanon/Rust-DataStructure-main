@@ -80,5 +80,6 @@ where
                 None
             }
         }
+        delete_node(&mut self.root, data);
     }
 }

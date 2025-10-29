@@ -3,6 +3,14 @@
 version = 4
 
 [[package]]
+name = "AVLTree"
+version = "0.1.0"
+
+[[package]]
+name = "BSTree"
+version = "0.1.0"
+
+[[package]]
 name = "bitree"
 version = "0.1.0"
 dependencies = [
@@ -48,10 +56,6 @@ version = "0.1.0"
 
 [[package]]
 name = "string"
-version = "0.1.0"
-
-[[package]]
-name = "tree_searching"
 version = "0.1.0"
 
 [[package]]

@@ -82,4 +82,18 @@ where
         }
         delete_node(&mut self.root, data);
     }
+
+    pub fn search(&self, key: &T) -> Option<&T> {
+        let mut cur = self.root.as_deref();
+        while let Some(node) = cur {
+            if key == &node.key {
+                return Some(&node.key);
+            } else if key < &node.key {
+                cur = node.left.as_deref();
+            } else {
+                cur = node.right.as_deref();
+            }
+        }
+        None
+    }
 }

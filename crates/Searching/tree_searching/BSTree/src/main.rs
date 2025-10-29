@@ -1,4 +1,4 @@
-use tree_searching::BSTree;
+use BSTree::BSTree;
 
 fn main() {
     let mut bst = BSTree::new_with(3);

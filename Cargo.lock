@@ -3,11 +3,7 @@
 version = 4
 
 [[package]]
-name = "AVLTree"
-version = "0.1.0"
-
-[[package]]
-name = "BSTree"
+name = "avl_tree"
 version = "0.1.0"
 
 [[package]]
@@ -20,6 +16,10 @@ dependencies = [
 
 [[package]]
 name = "block_searching"
+version = "0.1.0"
+
+[[package]]
+name = "bstree"
 version = "0.1.0"
 
 [[package]]
@@ -40,6 +40,10 @@ version = "0.1.0"
 
 [[package]]
 name = "queue"
+version = "0.1.0"
+
+[[package]]
+name = "rbtree"
 version = "0.1.0"
 
 [[package]]

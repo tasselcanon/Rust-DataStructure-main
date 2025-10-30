@@ -1,4 +1,4 @@
-use BSTree::BSTree;
+use bstree::BSTree;
 
 fn main() {
     let mut bst = BSTree::new_with(3);

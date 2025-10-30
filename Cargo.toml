@@ -11,6 +11,7 @@ members = ["crates/List/sequence_list",
            "crates/Graph/graph", 
            "crates/Searching/block_searching",
            "crates/Searching/seq_searching",
-           "crates/Searching/tree_searching/BSTree",
-           "crates/Searching/tree_searching/AVLTree"]
+           "crates/Searching/tree_searching/bstree",
+           "crates/Searching/tree_searching/avl_tree", 
+           "crates/Searching/tree_searching/rbtree"]
 resolver = "3"

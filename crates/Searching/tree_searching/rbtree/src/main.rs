@@ -1,3 +1,9 @@
+use rbtree::RBTree;
 fn main() {
-    println!("Hello, world!");
+    let mut rb = RBTree::new();
+    let list = vec![10, 20, 30, 15, 25, 5];
+    for e in list {
+        rb.insert(e);
+    }
+    rb.inorder();
 }

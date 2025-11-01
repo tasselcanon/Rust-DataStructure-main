@@ -23,6 +23,10 @@ name = "bstree"
 version = "0.1.0"
 
 [[package]]
+name = "btree"
+version = "0.1.0"
+
+[[package]]
 name = "graph"
 version = "0.1.0"
 dependencies = [

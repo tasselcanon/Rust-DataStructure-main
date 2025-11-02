@@ -31,6 +31,10 @@ name = "btree"
 version = "0.1.0"
 
 [[package]]
+name = "chaining"
+version = "0.1.0"
+
+[[package]]
 name = "graph"
 version = "0.1.0"
 dependencies = [
@@ -44,6 +48,10 @@ version = "0.1.0"
 
 [[package]]
 name = "linked_list"
+version = "0.1.0"
+
+[[package]]
+name = "open_addressing"
 version = "0.1.0"
 
 [[package]]

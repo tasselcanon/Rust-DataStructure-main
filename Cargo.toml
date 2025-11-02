@@ -15,5 +15,7 @@ members = ["crates/List/sequence_list",
            "crates/Searching/tree_searching/avl_tree", 
            "crates/Searching/tree_searching/rbtree", 
            "crates/Searching/tree_searching/btree", 
-           "crates/Searching/tree_searching/bplus_tree"]
+           "crates/Searching/tree_searching/bplus_tree", 
+           "crates/Searching/hash_searching/open_addressing",
+           "crates/Searching/hash_searching/chaining"]
 resolver = "3"

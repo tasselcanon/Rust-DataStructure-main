@@ -13,7 +13,7 @@
 -   List => 顺序表、链表和串
 -   Tree => 二叉树、哈夫曼树和并查集
 -   Graph => 图的增删改查以及遍历
--   Searching => 顺序查找、分块查找、树形查找、B+树和散列表(ToDo!)
+-   Searching => 顺序查找、分块查找、树形查找、B+树和散列表
 -   Sort => (ToDo!)
 
 ## 项目结构
@@ -37,7 +37,8 @@ Rust-DataStructure-main/
 │   ├── Searching/
 │   │   ├── block_searching/
 │   │   ├── seq_searching/
-│   │   └── tree_searching/
+│   │   ├── tree_searching/
+│   │   └── hash_searching/
 ├── Cargo.toml
 └── README.md
 
@@ -79,5 +80,5 @@ false
 -   [√] List（顺序表、链表、串）
 -   [√] Tree（二叉树、哈夫曼树、并查集）
 -   [√] Graph（遍历、最短路径、最小生成树）
--   [ ] Searching（分块查找、B+树、哈希）
+-   [√] Searching（分块查找、B+树、哈希）
 -   [ ] Sort（冒泡、快排、堆排）

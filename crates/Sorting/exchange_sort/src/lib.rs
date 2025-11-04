@@ -17,18 +17,25 @@ impl ExchangeSorter {
         }
     }
 
-    pub fn partition(arr: &mut [i32]) -> usize {
-        let pivot_index = arr.len() - 1;
+    fn partition(arr: &mut [i32]) -> usize {
+        let len = arr.len();
+        let pivot_index = len - 1;
         let pivot = arr[pivot_index];
-        let mut i = 0;
-        for j in 0..pivot_index {
-            if arr[j] < pivot {
-                arr.swap(i, j);
-                i += 1;
+        let mut left = 0;
+        let mut right = len - 1;
+        while left < right {
+            while left < right && arr[left] <= pivot {
+                left += 1;
             }
+            arr[right] = arr[left];
+
+            while left < right && arr[right] >= pivot {
+                right -= 1;
+            }
+            arr[left] = arr[right];
         }
-        arr.swap(i, pivot_index);
-        i
+        arr[left] = pivot;
+        left
     }
     pub fn quick_sort(&self, arr: &mut [i32]) {
         let len = arr.len();

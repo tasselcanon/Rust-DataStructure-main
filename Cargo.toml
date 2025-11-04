@@ -19,5 +19,6 @@ members = ["crates/List/sequence_list",
            "crates/Searching/hash_searching/open_addressing",
            "crates/Searching/hash_searching/chaining", 
            "crates/Sorting/insertion_sort", 
-           "crates/Sorting/exchange_sort",]
+           "crates/Sorting/exchange_sort", 
+           "crates/Sorting/selection_sort",]
 resolver = "3"

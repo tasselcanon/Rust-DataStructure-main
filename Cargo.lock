@@ -71,6 +71,10 @@ name = "rbtree"
 version = "0.1.0"
 
 [[package]]
+name = "selection_sort"
+version = "0.1.0"
+
+[[package]]
 name = "seq_searching"
 version = "0.1.0"
 

@@ -1,6 +1,6 @@
 # 用 Rust 语言实现的数据结构
 
-一个基于 Rust 语言实现的数据结构的小 demo，包含顺序表、链表、二叉树、并查集、图、查找和排序等经典结构，并在各个章节中嵌入了部分习题的函数实现，便于学习与理解。(暂未完成，正每天完善中)
+一个基于 Rust 语言实现的数据结构的小 demo，包含顺序表、链表、二叉树、并查集、图、查找和排序等经典结构，并在各个章节中嵌入了部分习题的函数实现，便于学习与理解。
 
 作为数据结构学习的实践项目，旨在使用 Rust 重写经典算法，
 帮助我熟悉所有权、借用、生命周期与泛型等核心特性。
@@ -14,7 +14,7 @@
 -   Tree => 二叉树、哈夫曼树和并查集
 -   Graph => 图的增删改查以及遍历
 -   Searching => 顺序查找、分块查找、树形查找、B+树和散列表
--   Sort => (ToDo!)
+-   Sort => 插入排序、交换排序、归并排序、选择排序和基数排序
 
 ## 项目结构
 
@@ -39,6 +39,12 @@ Rust-DataStructure-main/
 │   │   ├── seq_searching/
 │   │   ├── tree_searching/
 │   │   └── hash_searching/
+│   ├── Sorting/
+│   │   ├── exchange_sort/
+│   │   ├── insertion_sort/
+│   │   ├── merge_sort/
+│   │   ├── radix_sort/
+│   │   └── selection_sort/
 ├── Cargo.toml
 └── README.md
 

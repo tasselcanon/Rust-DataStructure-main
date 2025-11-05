@@ -59,11 +59,19 @@ name = "linked_list"
 version = "0.1.0"
 
 [[package]]
+name = "merge_sort"
+version = "0.1.0"
+
+[[package]]
 name = "open_addressing"
 version = "0.1.0"
 
 [[package]]
 name = "queue"
+version = "0.1.0"
+
+[[package]]
+name = "radix_sort"
 version = "0.1.0"
 
 [[package]]

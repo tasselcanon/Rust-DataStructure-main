@@ -18,24 +18,20 @@ impl SelectionSorter {
     pub fn heap_sort(arr: &mut [i32]) {
         let len = arr.len();
 
-        // 1. 构建最大堆
         for i in (0..len / 2).rev() {
             Self::heapify(arr, len, i);
         }
 
-        // 2. 堆排序
         for i in (1..len).rev() {
-            arr.swap(0, i); // 将堆顶最大值放到数组末尾
-            Self::heapify(arr, i, 0); // 调整剩余堆
+            arr.swap(0, i);
+            Self::heapify(arr, i, 0);
         }
     }
 
-    // 调整堆，使 arr[root_index..heap_size] 满足最大堆性质
     fn heapify(arr: &mut [i32], heap_size: usize, root_index: usize) {
         let mut largest = root_index;
         let left = 2 * root_index + 1;
         let right = 2 * root_index + 2;
-
         if left < heap_size && arr[left] > arr[largest] {
             largest = left;
         }
